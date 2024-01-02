@@ -1,0 +1,132 @@
+ 
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+  }
+ #sec1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/pro.png);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+  }
+  .sectionPortfolio{
+    width: 100%;
+    height: 110vh;
+    background-image: url(./img/fond3.jpg);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+#monPrenom{
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+
+
+  .titrePortfolio{
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  }
+  
+    .projet{
+        width: 290px;
+        height: 300px;
+        border-radius: 3%;
+        color: black;
+        background-color: rgb(255, 255, 255);
+        border: 4px solid black;
+        box-shadow: 4px 4px 0 0 black;
+    
+      }
+  
+
+  /*------------------------------------------------ SECTION SERVICE ----------------------------------------------*/
+  .sectionService {
+    width: 100%;
+    height: 110vh;
+    background-image: url(./img/fond7.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .titreMesServices{
+    margin-bottom: 400px;
+    font-size: 100px;
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(255, 170, 0), 0 0 82px rgb(255, 170, 0),
+    0 0 92px rgb(255, 170, 0), 0 0 102px rgb(255, 170, 0),
+    0 0 151px rgb(255, 170, 0);
+}
+  /*------------------------------------------------ A PROPOS ----------------------------------------------*/
+  .sectionApropos {
+    width: 100%;
+    height: 110vh;
+    background-image: url(./img/fond8.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+  }
+  .titreApropos{
+  color: #fff;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+    0 0 42px rgb(170, 0, 255), 0 0 82px rgb(170, 0, 255),
+    0 0 92px rgb(255, 170, 0), 0 0 102px rgb(255, 170, 0),
+    0 0 151px rgb(255, 170, 0); 
+}
+
+
+
+  /*------------------------------------------------ SECTION CONTACT ----------------------------------------------*/
+  .sectionContact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/fond12.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .Apropos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6%;
+    right: 1px;
+  }
+  .cv {
+    height: 400px;
+    width: 625px;
+    border: solid 1px black;
+    border-radius: 3% 0% 0% 0%;
+    background-color: rgb(115, 0, 255);
+    opacity: 40%;
+  }
+  .textCv {
+    color: white;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
+      0 0 42px rgb(170, 0, 255), 0 0 82px rgb(170, 0, 255),
+      0 0 92px rgb(255, 170, 0), 0 0 102px rgb(255, 170, 0),
+      0 0 151px rgb(255, 170, 0);
+  }
+  .imgCv {
+    height: 400px;
+    width: 320px;
+    border-radius: 0% 3% 3% 0%;
+  }
+  
