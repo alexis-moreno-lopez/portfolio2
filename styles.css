@@ -238,27 +238,11 @@ a:nth-child(2){
     text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
     0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
   }
-  .contactezMoi{
-
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100px;
-width: 100px;
-  }
-  .formContact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    width: 100px;
-  }
 
 
   .login-box {
-    position: absolute;
+
     border: 1px solid #0fa;
-    
     width: 450px;
     transform: translate( 250%);
     background: rgba(0,0,0,.5);
