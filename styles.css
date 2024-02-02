@@ -1,150 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
 
-/* Importamos uma fonte do google fonts e organizando a margem, o preencimento e o tamanho da caixa */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+#sec1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/pro.png);
+  display: flex;
+  background-size: cover;
+  background-position: center;
+}
 
-a:hover{
-    background: #03e9f4;
-    color: #050801;
-    box-shadow: 
-    0 0 005px #03e9f4, 
-    0 0 025px #03e9f4,
-    0 0 050px #03e9f4,
+#blue:hover {
+  border-radius: 5px;
+  background: #03e9f4;
+  color: #050801;
+  box-shadow: 0 0 005px #03e9f4, 0 0 025px #03e9f4, 0 0 050px #03e9f4,
     0 0 200px #03e9f4;
 }
-a:nth-child(2){
-    filter: hue-rotate(110deg);
-}
 
- #sec1{
-    width: 100%;
-    height: 100vh;
-    background-image: url(./img/pro.png);
-    display: flex;
-    background-size: cover;
-    background-position: center;
-  
-  }
-  
-  .sectionPortfolio{
-    width: 100%;
-    height: 110vh;
-    background-image: url(./img/fond3.jpg);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-  }
-#monPrenom{
-    color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+#monPrenom {
+  color: #fff;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
+    0 0 42px rgba(0, 255, 0, 0.5), 0 0 82px rgba(0, 255, 0, 0.5),
+    0 0 92px rgba(0, 255, 0, 0.5), 0 0 102px rgba(0, 255, 0, 0.5),
+    0 0 151px rgba(0, 255, 0, 0.5);
 }
 
 /*--------------------------------------------------SECTION PORTFOLIO----------------------------------------------*/
-  .titrePortfolio{
-    font-size: 100px;
-    color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-      0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
-  }
-  
-    .projet{
-        width: 250px;
-        height: 250px;
-        border-radius: 3%;
-        color: black;
-        background-color: rgb(255, 255, 255);
-        border: 4px solid black;
-        box-shadow: 4px 4px 0 0 black;
-    
-      }
-      #a:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #ff00aa,
-          inset 0 0 16px #ff00aa, 0 0 32px #ff00aa, inset 0 0 32px #ff00aa;
-      }
-      #b:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #ff9203,
-          inset 0 0 16px #ff9203, 0 0 32px #ff9203, inset 0 0 32px #ff9203;
-      }
-      #c:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #ffffff,
-          inset 0 0 16px #ffffff, 0 0 32px #ffffff, inset 0 0 32px #ffffff;
-      }
-      #d:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #ff0000,
-          inset 0 0 16px #ff0000, 0 0 32px #ff0000, inset 0 0 32px #ff0000;
-      }
-      #e:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #0325ff,
-          inset 0 0 16px #0325ff, 0 0 32px #0325ff, inset 0 0 32px #0325ff;
-      }
-      #f:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #fff703,
-          inset 0 0 16px #fff703, 0 0 32px #fff703, inset 0 0 32px #fff703;
-      }
-      #g:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #2fff00,
-          inset 0 0 16px #2fff00, 0 0 32px #2fff00, inset 0 0 32px #2fff00;
-      }
-      #h:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #a600ff,
-          inset 0 0 16px #a600ff, 0 0 32px #a600ff, inset 0 0 32px #a600ff;
-      }
-      #i:hover {
-        border: 4px solid #fff;
-        border-radius: 12px;
-        box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #00ffff,
-          inset 0 0 16px #00ffff, 0 0 32px #00ffff, inset 0 0 32px #00ffff;
-      }
-  
-
-  /*------------------------------------------------ SECTION SERVICE ----------------------------------------------*/
-  .sectionService {
-    width: 100%;
-    height: 110vh;
-    background-image: url(./img/fond7.jpg);
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  .titreMesServices{
-    margin-bottom: 100px;
-    font-size: 100px;
-  color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
-    0 0 42px rgb(255, 170, 0), 0 0 82px rgb(255, 170, 0),
-    0 0 92px rgb(255, 170, 0), 0 0 102px rgb(255, 170, 0),
-    0 0 151px rgb(255, 170, 0);
+.sectionPortfolio {
+  width: 100%;
+  height: 110vh;
+  background-image: url(./img/fond3.jpg);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
 }
-.projet2{
+.titrePortfolio {
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
+    0 0 42px rgba(0, 255, 0, 0.5), 0 0 82px rgba(0, 255, 0, 0.5),
+    0 0 92px rgba(0, 255, 0, 0.5), 0 0 102px rgba(0, 255, 0, 0.5),
+    0 0 151px rgba(0, 255, 0, 0.5);
+}
+
+.projet {
   width: 250px;
   height: 250px;
   border-radius: 3%;
@@ -152,8 +62,97 @@ a:nth-child(2){
   background-color: rgb(255, 255, 255);
   border: 4px solid black;
   box-shadow: 4px 4px 0 0 black;
-  margin-bottom: 350px;
+}
+#a:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #ff00aa,
+    inset 0 0 16px #ff00aa, 0 0 32px #ff00aa, inset 0 0 32px #ff00aa;
+}
+#b:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #ff9203,
+    inset 0 0 16px #ff9203, 0 0 32px #ff9203, inset 0 0 32px #ff9203;
+}
+#c:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #ffffff,
+    inset 0 0 16px #ffffff, 0 0 32px #ffffff, inset 0 0 32px #ffffff;
+}
+#d:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #ff0000,
+    inset 0 0 16px #ff0000, 0 0 32px #ff0000, inset 0 0 32px #ff0000;
+}
+#e:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #0325ff,
+    inset 0 0 16px #0325ff, 0 0 32px #0325ff, inset 0 0 32px #0325ff;
+}
+#f:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #fff703,
+    inset 0 0 16px #fff703, 0 0 32px #fff703, inset 0 0 32px #fff703;
+}
+#g:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #2fff00,
+    inset 0 0 16px #2fff00, 0 0 32px #2fff00, inset 0 0 32px #2fff00;
+}
+#h:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #a600ff,
+    inset 0 0 16px #a600ff, 0 0 32px #a600ff, inset 0 0 32px #a600ff;
+}
+#i:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #00ffff,
+    inset 0 0 16px #00ffff, 0 0 32px #00ffff, inset 0 0 32px #00ffff;
+}
 
+/*------------------------------------------------ SECTION MES COMPETENCES ----------------------------------------------*/
+.sectionCompetences {
+  width: 100%;
+  height: 110vh;
+  background-image: url(./img/fond7.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.titreMesCompetences {
+  margin-bottom: 100px;
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
+    0 0 42px rgba(255, 170, 0, 0.5), 0 0 82px rgba(255, 170, 0, 0.5),
+    0 0 92px rgba(255, 170, 0, 0.5), 0 0 102px rgba(255, 170, 0, 0.5),
+    0 0 151px rgba(255, 170, 0, 0.5);
+}
+.projet2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 3%;
+  color: black;
+  background-image: url(./img/test2.png);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  border: 4px solid black;
+  box-shadow: 4px 4px 0 0 black;
+  margin-bottom: 350px;
 }
 #j:hover {
   border: 4px solid #fff;
@@ -173,222 +172,71 @@ a:nth-child(2){
   box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #00ffff,
     inset 0 0 16px #00ffff, 0 0 32px #00ffff, inset 0 0 32px #00ffff;
 }
-  /*------------------------------------------------ A PROPOS ----------------------------------------------*/
-  .sectionApropos {
-    width: 100%;
-    height: 110vh;
-    background-image: url(./img/fond8.jpg);
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-  }
-  .titreApropos{
+/*------------------------------------------------ A PROPOS ----------------------------------------------*/
+.sectionApropos {
+  width: 100%;
+  height: 110vh;
+  background-image: url(./img/fond8.jpg);
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+}
+.titreApropos {
+  font-size: 80px;
   color: #fff;
-  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff,
-    0 0 42px rgb(170, 0, 255), 0 0 82px rgb(170, 0, 255),
-    0 0 92px rgb(255, 170, 0), 0 0 102px rgb(255, 170, 0),
-    0 0 151px rgb(255, 170, 0); 
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
+    0 0 42px rgba(170, 0, 255, 0.5), 0 0 82px rgba(170, 0, 255, 0.5),
+    0 0 92px rgba(255, 170, 0, 0.5), 0 0 102px rgba(255, 170, 0, 0.5),
+    0 0 151px rgba(255, 170, 0, 0.5);
+}
+.Apropos {
+  padding-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 6%;
+  right: 1px;
+}
+.cv {
+  height: 560px;
+  width: 1000px;
+  border: solid 1px black;
+  border-radius: 1% 0% 0% 0%;
+  background-color: rgba(115, 0, 255, 0.4);
+  /* opacity: 40%; */
+}
+.textCv {
+  color: white;
+  font-size: 20px;
+  color: #fff;
+}
+.imgCv {
+  height: 560px;
+  width: 430px;
+  border-radius: 0% 2% 2% 0%;
 }
 
-
-
-  /*------------------------------------------------ SECTION CONTACT ----------------------------------------------*/
-  .sectionContact {
-    width: 100%;
-    height: 100vh;
-    background-image: url(./img/fond12.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .Apropos {
-    padding-top: 115px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 6%;
-    right: 1px;
-  }
-  .cv {
-    height: 560px;
-    width: 1050px;
-    border: solid 1px black;
-    border-radius: 3% 0% 0% 0%;
-    background-color: rgb(115, 0, 255);
-    opacity: 40%;
-
-  }
-  .textCv {
-    
-    color: white;
-    font-size: 20px;
-    color: #fff;
-
-  }
-  .imgCv {
-    height: 560px;
-    width: 380px;
-    border-radius: 0% 3% 3% 0%;
-  }
-  .titreContact{
-    text-align: center;
-    padding-top: 70px;
-    font-size: 100px;
-    color: #fff;
-    text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
-    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
-  }
-
-
-  .login-box {
-
-    border: 1px solid #0fa;
-    width: 450px;
-    transform: translate( 250%);
-    background: rgba(0,0,0,.5);
-    box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.6);
-    border-radius: 10px;
-  }
-  .login-box h2 {
-    margin: 0 0 30px;
-    padding: 0;
-    color: #0fa;
-    text-align: center;
-  }
-  .login-box .user-box {
-    position: relative;
-  }
-  .login-box .user-box input {
-    width: 100%;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 30px;
-    border: none;
-    border-bottom: 1px solid #fff;
-    outline: none;
-    background: transparent;
-  }
-  .login-box .user-box label {
-    position: absolute;
-    top:0;
-    left: 0;
-    padding: 10px 0;
-    font-size: 16px;
-    color: #0fa;
-    pointer-events: none;
-    transition: .5s;
-  }
-  .login-box .user-box input:focus ~ label,
-  .login-box .user-box input:valid ~ label {
-    top: -20px;
-    left: 0;
-    color:  #fff;
-    font-size: 12px;
-  }
-  
-  .login-box form a {
-    position: relative;
-    display: inline-block;
-    padding: 10px 20px;
-    color:  #0fa;
-    font-size: 16px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    transition: .5s;
-    margin-top: 40px;
-    letter-spacing: 4px
-  }
-  
-  .login-box a:hover {
-    background: #ff6b6b; 
-    color:  #ffff;
-    border-radius: 5px;
-    box-shadow: 0 0 5px #ff6b6b,
-                0 0 25px #ff6b6b,
-                0 0 50px #ff6b6b,
-                0 0 100px #ff6b6b;
-  }
-  
-  .login-box a span {
-    position: absolute;
-    display: block;
-  }
-  
-  .login-box a span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, #ff6b6b);
-    animation: btn-anim1 1s linear infinite;
-  }
-  
-  @keyframes btn-anim1 {
-    0% {
-      left: -100%;
-    }
-    50%,100% {
-      left: 100%;
-    }
-  }
-  
-  .login-box a span:nth-child(2) {
-    top: -100%;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg,transparent, #ff6b6b);
-    animation: btn-anim2 1s linear infinite;
-    animation-delay: .25s
-  }
-  
-  @keyframes btn-anim2 {
-    0% {
-      top: -100%;
-    }
-    50%,100% {
-      top: 100%;
-    }
-  }
-  
-  .login-box a span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, #ff6b6b);
-    animation: btn-anim3 1s linear infinite;
-    animation-delay: .5s
-  }
-  
-  @keyframes btn-anim3 {
-    0% {
-      right: -100%;
-    }
-    50%,100% {
-      right: 100%;
-    }
-  }
-  
-  .login-box a span:nth-child(4) {
-    bottom: -100%;
-    left: 0;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(360deg, transparent, #ff6b6b);
-    animation: btn-anim4 1s linear infinite;
-    animation-delay: .75s
-  }
-  
-  @keyframes btn-anim4 {
-    0% {
-      bottom: -100%;
-    }
-    50%,100% {
-      bottom: 100%;
-    }
-  }
-  
+/*------------------------------------------------ SECTION CONTACT ----------------------------------------------*/
+.sectionContact {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/fond12.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.titreContact {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
+    0 0 42px rgba(0, 255, 170, 0.5), 0 0 82px rgba(0, 255, 170, 0.5),
+    0 0 92px rgba(0, 255, 170, 0.5), 0 0 102px rgba(0, 255, 170, 0.5),
+    0 0 151px rgba(0, 255, 170, 0.5);
+}
+.link {
+  height: 700px;
+}
