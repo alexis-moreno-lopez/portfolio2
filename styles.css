@@ -15,7 +15,7 @@
   background-position: center;
 }
 
-#blue:hover {
+.blue:hover {
   border-radius: 5px;
   background: #03e9f4;
   color: #050801;
@@ -33,17 +33,15 @@
 }
 
 /*--------------------------------------------------SECTION PORTFOLIO----------------------------------------------*/
-.sectionPortfolio {
+#portfolio {
   width: 100%;
-  height: 110vh;
   background-image: url(./img/fond3.jpg);
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   background-size: cover;
   background-position: center;
   text-align: center;
 }
+
+
 .titrePortfolio {
   font-size: 100px;
   color: #fff;
@@ -57,6 +55,7 @@
 .projet {
   width: 250px;
   height: 250px;
+  /* height: calc(width); */
   border-radius: 3%;
   color: black;
   background-color: rgb(255, 255, 255);
@@ -119,20 +118,14 @@
 }
 
 /*------------------------------------------------ SECTION MES COMPETENCES ----------------------------------------------*/
-.sectionCompetences {
+#competences {
   width: 100%;
-  height: 110vh;
   background-image: url(./img/fond7.jpg);
   background-size: cover;
   background-position: center;
   justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 .titreMesCompetences {
-  margin-bottom: 100px;
   font-size: 100px;
   color: #fff;
   text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
@@ -145,15 +138,14 @@
   width: 250px;
   height: 250px;
   border-radius: 3%;
-  color: black;
   background-image: url(./img/test2.png);
   background-size: cover;
   background-position: center;
   justify-content: center;
   border: 4px solid black;
   box-shadow: 4px 4px 0 0 black;
-  margin-bottom: 350px;
 }
+
 #j:hover {
   border: 4px solid #fff;
   border-radius: 12px;
@@ -173,14 +165,15 @@
     inset 0 0 16px #00ffff, 0 0 32px #00ffff, inset 0 0 32px #00ffff;
 }
 /*------------------------------------------------ A PROPOS ----------------------------------------------*/
-.sectionApropos {
+#apropos {
   width: 100%;
-  height: 110vh;
+  /* min-height: 856px; */
   background-image: url(./img/fond8.jpg);
   background-size: cover;
   background-position: center;
-  justify-content: center;
+  background-repeat: no-repeat;
 }
+
 .titreApropos {
   font-size: 80px;
   color: #fff;
@@ -190,31 +183,14 @@
     0 0 92px rgba(255, 170, 0, 0.5), 0 0 102px rgba(255, 170, 0, 0.5),
     0 0 151px rgba(255, 170, 0, 0.5);
 }
-.Apropos {
-  padding-top: 55px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 6%;
-  right: 1px;
-}
+
 .cv {
-  height: 560px;
-  width: 1000px;
   border: solid 1px black;
-  border-radius: 1% 0% 0% 0%;
   background-color: rgba(115, 0, 255, 0.4);
-  /* opacity: 40%; */
 }
-.textCv {
-  color: white;
-  font-size: 20px;
-  color: #fff;
-}
+
 .imgCv {
-  height: 560px;
-  width: 430px;
+  width: 100%;
   border-radius: 0% 2% 2% 0%;
 }
 
