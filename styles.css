@@ -6,14 +6,17 @@
   box-sizing: border-box;
 }
 
+
 #sec1 {
   width: 100%;
   height: 100vh;
   background-image: url(./img/pro.png);
+  z-index: 10;
   display: flex;
   background-size: cover;
   background-position: center;
 }
+
 
 .blue:hover {
   border-radius: 5px;
@@ -22,18 +25,28 @@
   box-shadow: 0 0 005px #03e9f4, 0 0 025px #03e9f4, 0 0 050px #03e9f4,
     0 0 200px #03e9f4;
 }
+.blue:active {
+  border-radius: 5px;
+  background: #80f4fa;
+  color: #050801;
+  box-shadow: 0 0 005px #03e9f4, 0 0 025px #03e9f4, 0 0 050px #03e9f4,
+    0 0 200px #03e9f4;
+}
 
 #monPrenom {
   color: #fff;
-  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
-    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
-    0 0 42px rgba(0, 255, 0, 0.5), 0 0 82px rgba(0, 255, 0, 0.5),
-    0 0 92px rgba(0, 255, 0, 0.5), 0 0 102px rgba(0, 255, 0, 0.5),
-    0 0 151px rgba(0, 255, 0, 0.5);
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.2),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.2),
+    0 0 42px rgba(0, 255, 0, 0.5), 0 0 82px rgba(0, 255, 0, 0.2),
+    0 0 92px rgba(0, 255, 0, 0.5), 0 0 102px rgba(0, 255, 0, 0.2),
+    0 0 151px rgba(0, 255, 0, 0.2);
 }
+
+
 
 /*--------------------------------------------------SECTION PORTFOLIO----------------------------------------------*/
 #portfolio {
+  z-index: 100;
   width: 100%;
   background-image: url(./img/fond3.jpg);
   background-size: cover;
@@ -43,14 +56,21 @@
 
 
 .titrePortfolio {
-  font-size: 100px;
+  font-size: 80px;
   color: #fff;
-  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
-    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
-    0 0 42px rgba(0, 255, 0, 0.5), 0 0 82px rgba(0, 255, 0, 0.5),
-    0 0 92px rgba(0, 255, 0, 0.5), 0 0 102px rgba(0, 255, 0, 0.5),
-    0 0 151px rgba(0, 255, 0, 0.5);
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.4),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.4),
+    0 0 42px rgba(0, 255, 0, 0.5), 0 0 82px rgba(0, 255, 0, 0.4),
+    0 0 92px rgba(0, 255, 0, 0.5), 0 0 102px rgba(0, 255, 0, 0.4),
+    0 0 151px rgba(0, 255, 0, 0.4);
 }
+@media(max-width: 700px) { 
+  .titrePortfolio {
+  font-size: 55px;
+  }
+ }
+
+
 
 .projet {
   width: 250px;
@@ -116,6 +136,24 @@
   box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #00ffff,
     inset 0 0 16px #00ffff, 0 0 32px #00ffff, inset 0 0 32px #00ffff;
 }
+#m:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #000354,
+    inset 0 0 16px #000354, 0 0 32px #000354, inset 0 0 32px #000354;
+}
+#n:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #0f714f,
+    inset 0 0 16px #0f714f, 0 0 32px #0f714f, inset 0 0 32px #0f714f;
+}
+#o:hover {
+  border: 4px solid #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #fff, inset 0 0 8px #fff, 0 0 16px #a20606,
+    inset 0 0 16px #a20606, 0 0 32px #a20606, inset 0 0 32px #a20606;
+}
 
 /*------------------------------------------------ SECTION MES COMPETENCES ----------------------------------------------*/
 #competences {
@@ -126,19 +164,27 @@
   justify-content: center;
 }
 .titreMesCompetences {
-  font-size: 100px;
+  font-size: 80px;
   color: #fff;
-  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
-    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
-    0 0 42px rgba(255, 170, 0, 0.5), 0 0 82px rgba(255, 170, 0, 0.5),
-    0 0 92px rgba(255, 170, 0, 0.5), 0 0 102px rgba(255, 170, 0, 0.5),
-    0 0 151px rgba(255, 170, 0, 0.5);
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
+    0 0 10px rgba(255, 255, 255, 0.3), 0 0 21px rgba(255, 255, 255, 0.3),
+    0 0 42px rgba(255, 170, 0, 0.3), 0 0 82px rgba(255, 170, 0, 0.3),
+    0 0 92px rgba(255, 170, 0, 0.3), 0 0 102px rgba(255, 170, 0, 0.3),
+    0 0 151px rgba(255, 170, 0, 0.3);
 }
+
+@media(max-width: 700px) { 
+  .titreMesCompetences {
+  font-size: 55px;
+  }
+ }
+
+
 .projet2 {
   width: 250px;
   height: 250px;
   border-radius: 3%;
-  background-image: url(./img/test2.png);
+  background-image: url(./img/A.webp);
   background-size: cover;
   background-position: center;
   justify-content: center;
@@ -166,6 +212,7 @@
 }
 /*------------------------------------------------ A PROPOS ----------------------------------------------*/
 #apropos {
+
   width: 100%;
   /* min-height: 856px; */
   background-image: url(./img/fond8.jpg);
@@ -184,35 +231,77 @@
     0 0 151px rgba(255, 170, 0, 0.5);
 }
 
+@media(max-width: 700px) { 
+  .titreApropos {
+  font-size: 55px;
+  }
+ }
+
 .cv {
   border: solid 1px black;
   background-color: rgba(115, 0, 255, 0.4);
+
 }
 
+
+
 .imgCv {
+
   width: 100%;
   border-radius: 0% 2% 2% 0%;
 }
 
+@media(max-width: 991px) { 
+  .imgCv {
+
+  width: 50%;
+  border-radius: 2% 2% 2% 2%;
+  }
+  .cv {
+border: none;
+    width: 80%;
+    border-radius: 2% 2% 2% 2%;
+  }
+ }
+
 /*------------------------------------------------ SECTION CONTACT ----------------------------------------------*/
 .sectionContact {
   width: 100%;
-  height: 100vh;
   background-image: url(./img/fond12.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .titreContact {
   text-align: center;
   padding-top: 100px;
   font-size: 100px;
   color: #fff;
-  text-shadow: 0 0 7px rgba(255, 255, 255, 0.5),
-    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.5),
-    0 0 42px rgba(0, 255, 170, 0.5), 0 0 82px rgba(0, 255, 170, 0.5),
-    0 0 92px rgba(0, 255, 170, 0.5), 0 0 102px rgba(0, 255, 170, 0.5),
-    0 0 151px rgba(0, 255, 170, 0.5);
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.3),
+    0 0 10px rgba(255, 255, 255, 0.3), 0 0 21px rgba(255, 255, 255, 0.3),
+    0 0 42px rgba(0, 255, 170, 0.3), 0 0 82px rgba(0, 255, 170, 0.3),
+    0 0 92px rgba(0, 255, 170, 0.3), 0 0 102px rgba(0, 255, 170, 0.3),
+    0 0 151px rgba(0, 255, 170, 0.3);
 }
+
+@media(max-width: 700px) { 
+  .titreContact {
+    padding-top: 150px;
+    font-size: 55px;
+    
+  }
+ }
+
 .link {
   height: 700px;
+}
+.description {
+  font-size: 20px;
+  color: #fff;
+  text-shadow: 0 0 7px rgba(255, 255, 255, 0.4),
+    0 0 10px rgba(255, 255, 255, 0.5), 0 0 21px rgba(255, 255, 255, 0.4),
+    0 0 42px rgba(0, 255, 0, 0.5), 0 0 82px rgba(0, 255, 0, 0.4),
+    0 0 92px rgba(0, 255, 0, 0.5), 0 0 102px rgba(0, 255, 0, 0.4),
+    0 0 151px rgba(0, 255, 0, 0.4);
+    text-decoration: none;
 }
